@@ -1,0 +1,7 @@
+# PalmT9 依赖清单
+# 安装: pip install -r requirements.txt
+# 注意: mediapipe 必须是 1.0.x（新 Tasks API），旧版 0.10.x 没有 mp.tasks.vision
+opencv-python>=5.0
+mediapipe>=1.0
+numpy>=2.0
+Pillow>=10.0

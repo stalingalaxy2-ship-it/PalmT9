@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 日志与本地配置
+palm_t9.log
+config.json
+
+# 仿真/验收产物（可重新生成）
+metrics.json
+acceptance_report.txt
+real_input_record.json
+input_flow_report.json
+feishu_clientvars.json
+feishu_doc.txt
+feishu_wiki.html
+feishu_*.txt
+
+# 飞书抓取调试脚本（一次性工具，非产品代码）
+extract_feishu*.py
+fetch_subpages.py
+inspect*.py
+links*.py
+render_feishu.py
+record_input_test.py
+test_input_flow.py
+
+# 打包产物
+dist/
+build/
+*.spec
+
+# 与 PalmT9 无关的 Insta360 相机 SDK（巨大，勿提交）
+kb/
+sdk-extract/
